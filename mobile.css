@@ -1,0 +1,234 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+
+
+@media(max-width:512px){
+    body{
+        background-color:white;
+    }
+    section{
+        width: 100%;
+        height: 100%;
+        margin-top: 0;
+        background-color: black;
+        color: white
+    }
+    
+    header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+        top: 0;
+        position: -webkit-sticky;
+        position: sticky;
+        color: black;
+    } 
+    
+    .logo{
+        left: 30px;
+    }
+    
+    .liks{
+        display: none;}
+    
+    nav{
+        display: block;
+        width: 100%;
+        height: 65%;
+    }
+    .programming{
+        width: 100%;
+        display: block;
+        padding: 10px;
+    }
+    .inner-pro{
+        padding: 10px;
+        font-size: 16px;
+    }
+    .pro{
+        font-size: 2rem;
+        padding: 5px;
+    }
+    .inner-pro p{font-size: 15px;}
+
+    .our{
+        width: 100%; 
+        font-size: 18.5px;
+        padding: 8px;
+    }
+    .Services h2{font-size: 30px;}
+  
+    .get{
+        display: block;
+        padding: 20px;
+        gap: 0;
+    }
+
+    .get h4 {font-size: 1.5rem;}
+
+    .free  {display: none;}
+    
+    form{
+        display: block;
+        height: 80vh;
+    }
+    
+    .img-1{ width: 100%;}
+
+    .project{ display: none;}
+   
+    article h4{
+        font-size: 2rem;
+        padding: 10px;
+    }
+    article> hr{
+        width: 12vw;
+        height: 4px;
+        left: 40%;
+    }
+    .inner-article{display: block; }
+
+    .couse{
+        width: 100%;
+        height: 100%;
+        padding: 15px;
+    }
+    .title{
+        height: 70vh;
+        border: solid 1px white;
+        font-size: 18px;
+    }
+    .title p{padding: 10px;}
+
+    .lorem{padding: 13px;}
+
+    .view-couse{
+        border: solid 2px white;
+        width: 11rem;
+        left: 14px;
+        top: 18px;
+    }
+
+    .alls{padding: 0;}
+
+    .alls> button{
+      left: 20%;
+        margin-bottom: 3rem;    
+    }
+    
+    
+    main{
+        height: 100%;
+        display: block;
+    }
+    .buiding{width: 100%;}
+
+    .buiding h1{
+        font-size: 2rem;
+        padding: 1rem;
+    }
+    .call{
+        width: 100%;
+        height: 100%;
+    }
+    .video{height: 100%;}
+    
+     video{width: 100%;}
+
+    .inner-call{ display: none;}
+
+    
+    footer{
+        display: block;
+        width: 100%;
+        height: 100%;
+        padding: 0;
+    }
+    footer .buiding{
+        width: 100%;
+        background-color: white;
+        color: black;
+        padding: 20px;
+    }
+    footer .buiding p{
+        font-size: 20px;
+        font-weight: none;
+        font-family: none;
+        color: rgb(100, 98, 98);
+    }
+    footer .buiding h1{
+        font-size: 2.1rem;
+    }
+    .done{
+        width: 100%;
+        background-color:black;
+        font-size: 19px;
+        padding: 15px;
+    }
+    .inner-done{padding: 9px;}
+
+    h6{
+        padding:10px ;
+        font-size: 15px;
+        color: rgb(161, 158, 158);
+    }
+
+    .test h4{
+        font-size: 1.8rem;
+         color: rgb(177, 145, 243);
+    }
+    .test hr{
+        width: 11vw;
+        height: 4px;
+        left: 44%;
+        margin-bottom: 5px;
+    }
+
+    aside{
+        display: block;
+        justify-content: center;
+        gap:0;
+        margin-bottom: 1rem;
+    }
+    aside .ster{
+        width: 100%;
+        height: 50%;
+        background-color: black;
+    }
+    .inner-star{
+        width: 100%;
+        height: auto;
+    }
+    .inner-star p{padding: 1.5rem;}
+    .inner-star h4{padding: 1.3rem;}
+    .pass{padding: 5px;}
+
+    .inner-icons-1{
+        padding: 10px;
+        gap: 1.9rem;
+        font-size: 7px;
+    }
+
+    .end{
+    display: block;
+    height: 80vh;}
+    .name{display: block;}
+
+    .location{
+    height: auto;
+    color: black;
+    }
+    .facebook{height: 4rem;}
+    .phone{
+    padding: 2rem;
+    font-size: 1.1rem;
+    }
+    label{display: block;}
+
+ 
+}

@@ -1,0 +1,662 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color:rgb(241, 236, 236);
+    
+}
+section{
+    width: 95%;
+    height: auto;
+    margin-inline: auto;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    background-color: white;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    top: 0;
+    position: -webkit-sticky;
+    position: sticky;
+    background: white;
+    
+}
+
+.logo{
+    display: flex;
+    position: relative;
+    left: 40px;
+}
+.hub{
+    border: solid 1px cadetblue;
+    border-radius: 100%;
+    width: 3rem;
+    height: 3rem;
+    padding: 8px;
+    background-color: rgb(184, 160, 231);
+}
+.logo h2{
+    padding: 10px;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.liks{
+    font-size: 20px;
+    position: relative;
+    right: 90px;
+
+}
+.liks a{
+    padding: 10px;
+    text-decoration: none;
+}
+
+nav{
+    display: flex;
+    width: 100%;
+    height: 65vh;
+}
+.programming{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5.3rem;
+}
+.programming{
+    background-image: linear-gradient(to bottom, rgba(3, 3, 3, 0.747), rgba(0, 0, 0, 0.849)), url("./img/ktn.png");
+    background-position: center;
+    background-size: cover;
+}
+.inner-pro{
+    padding: 3rem;
+    font-size: 20px;
+}
+.first-pro{
+    display: flex;
+    align-items: center;
+}
+.one{
+    border: solid 0.1px;
+    width: 9px;
+    height: 6.5rem;
+    font-size: 17px;
+    border: none;
+    background-color: rgb(184, 160, 231);
+
+}
+.pro{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 3.5rem;
+    font-weight: bolder;
+    padding: 25px;
+    color: rgb(184, 160, 231);
+}
+.inner-pro p{
+    font-size: 21px;
+    margin-top: 15px;
+    margin-bottom: 5rem;
+    color: white;
+}
+.view{
+    border: solid 1px;
+    width: 14rem;
+    height: 3.3rem;
+    text-align: center;
+    padding: 18px;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    border: none;
+    background-color: rgb(184, 160, 231);
+
+}
+.our{
+    width: 30%;
+    height: 100%;
+    background-color: rgb(188, 165, 235); 
+    font-size: 19.5px;
+    padding: 30px;
+    color: rgb(240, 233, 233);
+}
+.Services h2{
+    font-size: 31px;
+    padding: 10px;
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+}
+.inner-our{
+    display:flex;
+    padding: 10px;
+    
+}
+.inner-our div{
+    padding: 10px;
+}
+.inner-our div h3{
+    color: black;
+}
+
+.get{
+    display: flex;
+    padding: 2rem;
+    font-size: 29px;
+    justify-content: center;
+    gap: 20rem;
+}
+.get h4{
+    font-size: 2.1rem;
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.free{
+    border: solid 1px;
+    width: 15rem;
+    height: 3.8rem;
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: rgb(146, 105, 228);
+}
+
+form{
+    display: flex;
+    width: 100%;
+    height: 98.5vh;
+}
+
+.img-1{
+width: 30%;
+height: 100%;
+
+}
+.img-1 div{
+    width: 100%;
+    height: 100%;
+    background-image: url("./img/images\ \(11\).jpeg");
+    background-size: cover;
+    /* background-position: center; */
+    background-repeat: no-repeat;
+
+}
+
+.project{
+    width: 70%;
+    height: 100%;
+    font-size: 20px;
+}
+.inner-project{
+    padding: 5.5rem;
+    background-color: rgb(243, 247, 247);
+
+}
+.inner-project h1{
+    font-size: 2.2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    padding: 19px;
+
+}
+form> .project> .inner-project> hr{
+    width: 3rem;
+    height: 5px;
+    background-color: rgb(188, 165, 235);
+    position: relative;
+    left: 20px;
+
+}
+
+.git{
+    display:grid;
+    grid-template-columns: repeat(2, 2fr);
+    gap: 3rem;
+    padding: 19px;
+    color: rgb(158, 155, 155);
+  
+}
+.git div:last-child{
+    border: solid 4px black;
+    color: black;
+    width: 12.5rem;
+    height: 3.4rem;
+    font-size: 14px;
+    font-weight: bolder;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 12px;
+} 
+
+.yeas{
+display: flex;
+}
+.yeas div:first-child{
+    width: 50%;
+    height: 8rem;
+    background-color: rgb(146, 105, 228);
+    color: black;
+    text-align: center;
+    font-size: 15px;
+    padding: 20px;
+}
+.yeas div:last-child{
+    width: 50%;
+    height: 8rem;
+    background-color:black;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    padding: 20px;
+}
+span{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    font-size: 2.6rem;
+
+}
+
+article{
+    padding: 30px;
+    height: auto;
+}
+article h4{
+    font-size: 2.8rem;
+    text-align: center;
+    padding: 1rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+}
+article> hr{
+    width: 4vw;
+    height: 6px;
+    position: relative;
+    left: 48%;
+    background-color: rgb(188, 165, 235);
+
+}
+.inner-article{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding: 20px;
+}
+.couse{
+    width: 20vw;
+    height: auto;
+}
+
+.photo-1{
+    background-image: url("./img/images\ \(2\).png");
+    width: 100%;
+    height: 10rem;
+    padding: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: solid 0.5px rgb(212, 210, 210);
+    /* border-radius: 5px; */
+}
+.photo-2{
+    background-image: url("./img/images\ \(1\).png");
+    width: 100%;
+    height: 10rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: solid 0.5px rgb(212, 210, 210);
+    /* border-radius: 5px; */
+}
+.photo-3{
+    background-image: url("./img/photos-3.jpg");
+    width: 100%;
+    height: 10rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: solid 0.5px rgb(212, 210, 210);
+    /* border-radius: 5px; */
+}
+.title{
+    width: 100%;
+    height: 75vh;
+    border: solid 1px black;
+    font-size: 20px;
+    padding: 13px;
+    border-radius: 9px;
+}
+.title p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    font-size: 1.2rem;
+    font-size: 16px;
+    padding: 23px;
+}
+.lorem{
+    padding: 20px;
+}
+.view-couse{
+    padding: 5px;
+    border: solid 2px black;
+    width: 8rem;
+    height: 2rem;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 15px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    position: relative;
+    left: 19px;
+
+    
+}
+.fass{
+    display: flex;
+    justify-content: space-between;
+}
+.alls{
+    padding: 15px;
+}
+.alls> button{
+  position: relative;
+  left: 42%;
+  width:13rem ;
+  height: 2.5rem;
+font-size: 15px;
+margin-bottom: 2rem; 
+/* padding: 10px;   */
+}
+
+
+main{
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    margin-bottom:3rem;
+}
+.buiding{
+    width: 30%;
+    height: 100%;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    
+}
+.buiding h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    font-size: 2.5rem;
+    padding: 1.8rem;
+}
+.buiding hr{
+    width: 3rem;
+    height: 6px;
+    background-color: orange;
+    position: relative;
+    left: 25px;
+}
+.buiding p{
+    font-size: 21px;
+    padding: 1.7rem;
+}
+.buiding div{
+    padding: 10px;
+    position: relative;
+    left: 25px;
+    border: solid 3px rgb(165, 128, 238);
+    width:13rem ;
+    height: 2.5rem; 
+    text-align: center;
+}
+
+
+
+.call{
+    width: 70%;
+    height: 100%;
+}
+.video{
+    width: 100%;
+    height: 82%;
+    /* background-color: aqua; */
+}
+video{
+    background: linear-gradient(burlywood,azure,burlywood);
+    -webkit-background-clip: padding-box;
+    height: 100%;
+    width: 58.5rem;
+   
+
+}
+.inner-call{
+    display: flex;
+    /* justify-content: center; */
+
+}
+.inner-call div{
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+}
+.inner-call div:first-child{
+    background-color: rgb(146, 105, 228);
+    padding: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+}
+.inner-call div:first-child p{
+    font-size: 1.3rem;
+}
+.inner-call div:last-child{
+    text-align: center;
+    background-color: rgb(250, 249, 249);
+    height: auto;
+    
+}
+.but button{
+    position: relative;
+    top: 2rem;
+    width:17rem ;
+    height: 2.9rem;
+  font-size: 1.2rem; 
+}
+footer{
+    display: flex;
+    width: 100%;
+    height: 80vh;
+    padding: 3rem;
+}
+footer .buiding{
+    background-color: white;
+    color: black;
+}
+footer .buiding p{
+    font-size: 20px;
+    font-weight: none;
+    font-family: none;
+    color: rgb(100, 98, 98);
+}
+footer .buiding h1{
+    font-size: 2.3rem;
+}
+.done{
+    width: 60%;
+    background-color:rgb(252, 251, 251);
+    font-size: 20px;
+}
+.inner-done{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+h6{
+    padding:20px ;
+    font-size: 20px;
+    color: rgb(134, 132, 132);
+}
+.fa-plus-circle , .fa-minus-circle{
+    color: rgb(177, 145, 243);
+    
+}
+.inner-done p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+
+}
+.test h4{
+    font-size: 2.8rem;
+    text-align: center;
+    padding: 1rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+}
+.test hr{
+    width: 4vw;
+    height: 6px;
+    position: relative;
+    left: 48%;
+    margin-bottom: 2.4rem;
+    background-color: rgb(188, 165, 235);
+}
+aside{
+    display: flex;
+    justify-content: center;
+    gap: 2.5rem;
+    margin-bottom: 3rem;
+}
+aside .ster{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 22vw;
+    height: 40vh;
+    font-size: 20px;
+    background-color: aliceblue;
+    /* padding: 2rem; */
+}
+.inner-star p{
+    font-size: 20px;
+    padding: 1.8rem;
+}
+.inner-star h4{
+    font-size: 22px;
+    padding: 1.8rem;
+}
+.fa-star{
+    color: rgb(177, 145, 243);
+    padding: 2.5px;
+}
+.pass{
+   display: flex;
+   justify-content:center ;
+   padding: 15px;
+}
+.icons{
+    margin-bottom: 2rem;
+}
+.inner-icons-1{
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+    gap: 9rem;
+    color: rgb(218, 193, 193);
+}
+
+
+.end{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+}
+.message{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(188, 165, 235);
+    padding: 20px;
+}
+.message p{
+    font-size: 2.8rem;
+    font-weight: bolder;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 10px;
+}
+.message hr{
+    width: 3rem;
+    height: 6px;
+    position: relative;
+    left: 15px;
+    background-color: black;
+}
+.name{
+    display: flex;
+    gap: 2rem;
+    padding: 10px;
+}
+.name input {
+width: 100%;
+height: 3rem;
+font-size: 18px;
+padding: 10px;
+border: none;
+
+}
+
+.inner-good{
+    width: 100%;
+    height: auto;
+    padding: 10px;
+}
+textarea{
+    width: 100%;
+    height: 14rem;
+    border: 0;
+    font-size: 17px;
+    padding: 10px;
+    resize: none;
+}
+.message .inner-good button{
+    float: right;
+    width: 11rem;
+    height: 2.5rem;
+    margin-top: 13px;
+   
+}
+.location{
+    width: 100%;
+    height: 100%;
+    background-color:rgb(248, 248, 248);
+}
+.facebook{
+    width: 100%;
+    height: 24%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3.5rem;
+    color: white;
+    background-color: black;
+}
+.phone{
+    padding: 4rem;
+    font-size: 1rem;
+    font-weight: bold;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+label{
+    display: ;
+    font-size: 18px;
+    padding: 6px;
+}
+
+

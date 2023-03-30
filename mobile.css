@@ -99,7 +99,7 @@
         padding: 15px;
     }
     .title{
-        height: 74vh;
+        height: 70vh;
         border: solid 1px white;
         font-size: 18px;
     }
@@ -111,7 +111,7 @@
         border: solid 2px white;
         width: 11rem;
         left: 14px;
-        top: 18px;
+        top: 10px;
     }
 
     .alls{padding: 0;}

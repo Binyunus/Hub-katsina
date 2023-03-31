@@ -279,12 +279,11 @@ article h4{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: bolder;
 }
-article> hr{
-    width: 4vw;
-    height: 6px;
-    position: relative;
-    left: 48%;
+article> .hr-2 {
+    width: 3rem;
+    height: 6px; 
     background-color: rgb(188, 165, 235);
+    margin-inline: auto;
 
 }
 .inner-article{
@@ -354,9 +353,7 @@ article> hr{
     font-size: 15px;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: bold;
-    position: relative;
-    left: 19px;
-
+    margin-left: 20px;
     
 }
 .fass{
@@ -365,15 +362,14 @@ article> hr{
 }
 .alls{
     padding: 15px;
+    display: flex;
+    justify-content: center;
 }
 .alls> button{
-  position: relative;
-  left: 42%;
   width:13rem ;
   height: 2.5rem;
 font-size: 15px;
 margin-bottom: 2rem; 
-/* padding: 10px;   */
 }
 
 
@@ -397,25 +393,23 @@ main{
     font-size: 2.5rem;
     padding: 1.8rem;
 }
-.buiding hr{
+.buiding .hr-1{
     width: 3rem;
     height: 6px;
     background-color: orange;
-    position: relative;
-    left: 25px;
+    margin-left: 30px;
 }
 .buiding p{
     font-size: 21px;
     padding: 1.7rem;
 }
-.buiding div{
+.buiding .about-us{
     padding: 10px;
-    position: relative;
-    left: 25px;
     border: solid 3px rgb(165, 128, 238);
     width:13rem ;
     height: 2.5rem; 
     text-align: center;
+    margin-left: 20px;
 }
 
 
@@ -521,11 +515,10 @@ h6{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: bolder;
 }
-.test hr{
+.test .hr-2{
     width: 4vw;
     height: 6px;
-    position: relative;
-    left: 48%;
+    margin-inline: auto;
     margin-bottom: 2.4rem;
     background-color: rgb(188, 165, 235);
 }
@@ -594,8 +587,7 @@ aside .ster{
 .message hr{
     width: 3rem;
     height: 6px;
-    position: relative;
-    left: 15px;
+    margin-left: 10px;
     background-color: black;
 }
 .name{

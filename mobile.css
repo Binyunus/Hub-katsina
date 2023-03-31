@@ -100,27 +100,17 @@
     }
     .title{
         height: 70vh;
-        border: solid 1px white;
+        border: solid 1px rgb(87, 85, 85);
         font-size: 18px;
+        color: rgb(226, 224, 224);
     }
     .title p{padding: 10px;}
 
     .lorem{padding: 13px;}
 
-    .view-couse{
-        border: solid 2px white;
-        width: 11rem;
-        left: 14px;
-        top: 10px;
-    }
+    .view-couse{display: none;}
 
     .alls{padding: 0;}
-
-    .alls> button{
-      left: 20%;
-        margin-bottom: 3rem;    
-    }
-    
     
     main{
         height: 100%;
@@ -180,13 +170,14 @@
 
     .test h4{
         font-size: 1.8rem;
-         color: rgb(177, 145, 243);
+        color: orange;
+         /* color: rgb(177, 145, 243); */
     }
-    .test hr{
+    .test .hr-2{display: none;
         width: 11vw;
         height: 4px;
-        left: 44%;
-        margin-bottom: 5px;
+        /* left: 44%; */
+        margin-bottom: 9px;
     }
 
     aside{
